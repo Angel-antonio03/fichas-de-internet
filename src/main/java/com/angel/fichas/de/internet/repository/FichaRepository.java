@@ -1,8 +1,8 @@
-package com.angel.fichas.repository;
+package com.angel.fichas.de.internet.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.angel.fichas.model.Fichas;
+import com.angel.fichas.de.internet.model.Fichas;
 
 
 public interface FichaRepository extends JpaRepository<Fichas, Long> {
